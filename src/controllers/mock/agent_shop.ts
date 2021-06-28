@@ -1,0 +1,38 @@
+export const agent_shop = {
+    "id": 1,
+    "name": "Tạp Hóa Quang",
+    "phone": "0963258741",
+    "address": "99 Kim Giang, Thanh Xuân, Hà Nội",
+    "location_address": "99 Kim Giang, Thanh Xuân, Hà Nội",
+    "lat": null,
+    "long": null,
+    "is_default": 1,
+    "create_at": "2021-06-08T07:52:09.000Z",
+    "update_at": "2021-06-08T07:52:09.000Z",
+};
+export const agent_shop_detail = [
+    {
+        "id": 1,
+        "name": "Tạp Hóa Quang",
+        "phone": "0963258741",
+        "address": "99 Kim Giang, Thanh Xuân, Hà Nội",
+        "location_address": "99 Kim Giang, Thanh Xuân, Hà Nội",
+        "is_default": 1,
+        "lat": null,
+        "long": null,
+        "create_at": "2021-06-08T07:52:09.000Z",
+        "update_at": "2021-06-08T07:52:09.000Z",
+    },
+    {
+        "id": 2,
+        "name": "Tạp Hóa Bách",
+        "phone": "0963258740",
+        "address": "100 Kim Giang, Thanh Xuân, Hà Nội",
+        "location_address": "100 Kim Giang, Thanh Xuân, Hà Nội",
+        "is_default": 0,
+        "lat": 20.985544,
+        "long": 105.8116273,
+        "create_at": "2021-06-08T07:52:09.000Z",
+        "update_at": "2021-06-08T07:52:09.000Z",
+    },
+];

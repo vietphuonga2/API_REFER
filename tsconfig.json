@@ -1,0 +1,77 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "sourceMap": true,
+    // "moduleResolution": "node",
+    /* Strict Type-Checking Options */
+    // "strict": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+    /* Additional Checks */
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    // "esModuleInterop": true,
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    /* Advanced Options */
+    // "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "@config/*": [
+        "config/*"
+      ],
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@models": [
+        "models/index"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@commons/*": [
+        "commons/*"
+      ],
+      "@middleware/*": [
+        "middleware/*"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/models/product_ship_merchant.model.ts",
+    "src/models/df_status_order.model.ts",
+    "src/helpers/uploadThread.js"
+  ],
+  "files": [
+    "./src/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

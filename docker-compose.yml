@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  referapi:
+    image: referapi
+    env_file: ./.env
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - ${API_PORT}:${PORT}
+    volumes:
+      - ./uploads:/usr/src/app/uploads
+    networks:
+      - overlay
+networks:
+  overlay:
